@@ -19,7 +19,7 @@ Let’s dive in! 🔥
 
 ## Getting Started
 
-1. [Fork this repository](https://github.com/code-verge/exercise-javascript-functions-and-arrays)
+1. Fork the repository
 2. Clone the repository to your computer
 3. Open the repository in VS Code
 4. Start the Live Server in VS Code
@@ -210,9 +210,10 @@ Happy coding, agent! 🕵🏻‍♀️💻
 
 ## Frequently Asked Questions (FAQs)
 
-- How can I iterate over an array in JavaScript?
-    
-    You can use a `for` loop or the `forEach()` method to iterate over an array in JavaScript. The `for` loop allows you to specify the starting point, condition, and increment/decrement, while the `forEach()` method executes a provided function once for each array element.
+<details>
+  <summary>How can I iterate over an array in JavaScript?</summary>
+ 
+You can use a `for` loop or the `forEach()` method to iterate over an array in JavaScript. The `for` loop allows you to specify the starting point, condition, and increment/decrement, while the `forEach()` method executes a provided function once for each array element.
     
     ```jsx
     // for loop
@@ -226,11 +227,14 @@ Happy coding, agent! 🕵🏻‍♀️💻
     numbers.forEach(function(number) {
       console.log(number);
     });
-    ```
-    
-- How can I create an object in JavaScript?
-    
-    You can create an object in JavaScript using the object literal notation. Object literal notation is the most common way, where you define an object using curly braces `{}` and specify its properties and values using key-value pairs.
+    ``` 
+ 
+</details>
+
+<details>
+  <summary>How can I create an object in JavaScript?</summary>
+ 
+You can create an object in JavaScript using the object literal notation. Object literal notation is the most common way, where you define an object using curly braces `{}` and specify its properties and values using key-value pairs.
     
     ```jsx
     // Creating an object using object literal notation
@@ -240,10 +244,14 @@ Happy coding, agent! 🕵🏻‍♀️💻
       city: "New York"
     };
     ```
-    
-- What is the `map()` method in JavaScript?
-    
-    The `map()` method creates a new array by calling a provided function on every element in the original array. It transforms each element based on the logic defined in the provided function and returns a new array with the transformed elements.
+
+ 
+</details>
+
+<details>
+  <summary>What is the `map()` method in JavaScript?</summary>
+ 
+The `map()` method creates a new array by calling a provided function on every element in the original array. It transforms each element based on the logic defined in the provided function and returns a new array with the transformed elements.
     
     ```jsx
     const numbers = [1, 2, 3, 4, 5];
@@ -252,10 +260,13 @@ Happy coding, agent! 🕵🏻‍♀️💻
     });
     console.log(doubledNumbers); // Output: [2, 4, 6, 8, 10]
     ```
-    
-- How can I filter an array based on a specific condition?
-    
-    You can use the `filter()` method to create a new array with all elements that pass a specific condition. The `filter()` method takes a callback function as an argument, which is executed for each element in the array. The elements for which the callback function returns true are included in the new array.
+ 
+</details>
+
+<details>
+  <summary>How can I filter an array based on a specific condition?</summary>
+
+You can use the `filter()` method to create a new array with all elements that pass a specific condition. The `filter()` method takes a callback function as an argument, which is executed for each element in the array. The elements for which the callback function returns true are included in the new array.
     
     ```jsx
     const numbers = [1, 2, 3, 4, 5];
@@ -264,3 +275,5 @@ Happy coding, agent! 🕵🏻‍♀️💻
     });
     console.log(evenNumbers); // Output: [2, 4]
     ```
+
+</details>
